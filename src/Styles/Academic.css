@@ -1,0 +1,65 @@
+#academic{
+    position: absolute;
+    text-align: center;
+    top: 12%;
+    height: 80%;
+    width: 90%;
+    left: 8%;
+    background-color: var(--cardColour);
+       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid var(--textColour);
+    overflow-x: hidden;
+    scrollbar-width: none;
+    animation: rightside 2s, popout 1s;
+
+    >h1{
+    top: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: var(--subColour);
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+#cardGroup{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+
+    img{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+}
+
+@keyframes rightside {
+    from{
+        left: 90%;
+    }
+    to{
+        left: 8%;
+    }
+}
+@media screen and (max-width: 768px){
+    #academic{
+        left: 5%;
+        height: 70%;
+    
+    #cardGroup{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10%;
+
+    img{
+        width: 100%;
+        height: 200px;
+    }
+    }
+    }
+    
+}

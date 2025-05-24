@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Black-White-Theme-Portfolio/static/css/main.fe163f72.css",
+    "main.js": "/Black-White-Theme-Portfolio/static/js/main.f2086de5.js",
+    "static/js/453.8dae03d8.chunk.js": "/Black-White-Theme-Portfolio/static/js/453.8dae03d8.chunk.js",
+    "static/media/my img 3.jpg": "/Black-White-Theme-Portfolio/static/media/my img 3.b7bed8de0a06814127a4.jpg",
+    "static/media/1.mp3": "/Black-White-Theme-Portfolio/static/media/1.4064418d9bc1f4f1df98.mp3",
+    "static/media/Resume.pdf": "/Black-White-Theme-Portfolio/static/media/Resume.224d943d84683d9a899b.pdf",
+    "static/media/rvs-college-of-arts-science-coimbatore.jpg": "/Black-White-Theme-Portfolio/static/media/rvs-college-of-arts-science-coimbatore.42aeb837d2b48e241e5a.jpg",
+    "static/media/mary-matha-college-of-arts-and-science-theni.jpg": "/Black-White-Theme-Portfolio/static/media/mary-matha-college-of-arts-and-science-theni.db0a0976407976ac556e.jpg",
+    "static/media/comma.png": "/Black-White-Theme-Portfolio/static/media/comma.101d862812af85a4c082.png",
+    "index.html": "/Black-White-Theme-Portfolio/index.html",
+    "main.fe163f72.css.map": "/Black-White-Theme-Portfolio/static/css/main.fe163f72.css.map",
+    "main.f2086de5.js.map": "/Black-White-Theme-Portfolio/static/js/main.f2086de5.js.map",
+    "453.8dae03d8.chunk.js.map": "/Black-White-Theme-Portfolio/static/js/453.8dae03d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe163f72.css",
+    "static/js/main.f2086de5.js"
+  ]
+}

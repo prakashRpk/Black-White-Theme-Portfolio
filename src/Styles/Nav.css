@@ -1,0 +1,46 @@
+    .bg-body-tertiary{
+    position: absolute !important;
+    background-color: var(--mainColour);
+    top: 15px;
+    left: 1%;
+    width: 98%;
+    color: var(--mainColour);
+    border-radius: 10px;
+    border: 1px solid var(--textColour);
+    animation: DownUp 2s, popout 2s;
+    z-index: 100000;
+    .me-auto{
+    margin-left: 10%;
+    background-color: black;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+        >a{
+            text-align: center;
+            margin: 0px 80px;
+            font-weight: 900;
+            color: white !important;
+            text-decoration: none;
+            padding: 10px 25px;
+        }
+        >a:hover{
+            background-color: white;
+            color: black !important;
+            border-radius: 5px;
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        }
+    }
+    #asic-navbar-nav{
+        position: fixed !important;
+    }
+}
+@keyframes DownUp {
+    from{
+        top: 0px;
+    }
+    to{
+        top: -370px;
+    }
+}
+

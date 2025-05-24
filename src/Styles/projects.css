@@ -1,0 +1,112 @@
+#programs{
+    position: absolute;
+    text-align: center;
+    top: 12%;
+    height: 80%;
+    width: 90%;
+    left: 8%;
+    background-color: var(--cardColour);
+       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid var(--textColour);
+    overflow-x: hidden;
+    scrollbar-width: none;
+    animation: rightside 2s, popout 1s;
+
+}
+#programs > h1{
+    top: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: var(--subColour);
+    color: black;
+    border-bottom: 1px solid black;
+}
+#programs > #cardGroup{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    margin: 50px;
+    gap: 50px;
+}
+#card{
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+#projectCarts{
+    position: absolute;
+    text-align: center;
+    top: 12%;
+    height: 80%;
+    width: 90%;
+    left: 5%;
+    background-color: var(--cardColour);
+       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+#projectCarts > h1{
+    top: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: var(--subColour);
+    color: black;
+    border-bottom: 1px solid white;
+}
+#cardGroup{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin: 50px;
+    gap: 50px;
+}
+#card{
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    background-color: var(--mainColour);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#projectCarts img{
+    border-radius: 5px;
+}
+#projectCarts button{
+    margin: 10px;
+}
+.fa-xmark{
+    font-size: 20px;
+    position: relative;
+    left: 40%;
+}
+@keyframes rightside {
+    from{
+        left: 90%;
+    }
+    to{
+        left: 8%;
+    }
+}
+@media screen and (max-width: 768px){
+    #programs{
+        left: 5%;
+        height: 70%;
+    }
+    #programs > #cardGroup{
+        grid-template-columns: 40% 40%;
+        margin: 20px;
+    }
+    #cardGroup{
+        grid-template-columns: 100%;
+    }
+    .fa-xmark{
+        font-size: 25px;
+        position: relative;
+        left: 25%;
+    }
+}
