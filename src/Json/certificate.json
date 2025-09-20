@@ -5,5 +5,8 @@
     },    {
         "certificate-name":"Great Learning (java - certificate)",
         "certificate-img":"certificate/Prakash-java- course.jpg"
+    },   {
+        "certificate-name":"FreeCodeCamp (Legarcy JavaScript Algorithms And Data Structures - certificate)",
+        "certificate-img":"certificate/Legarcy JavaScript Algorithms And Data Structures.jpg"
     }
 ]
